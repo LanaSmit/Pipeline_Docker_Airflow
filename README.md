@@ -67,8 +67,8 @@ Login using the credentials from your .env.
 Add a new server:
 
 - Host: pgdatabase
-- Username: lana
-- Password: 1234
+- Username: yourusername
+- Password: yourpassword
 
 ## 6. Build the Ingestion Docker Image
 
