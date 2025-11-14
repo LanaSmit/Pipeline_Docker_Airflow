@@ -4,17 +4,28 @@ It extracts data from parquet file and loads it into a PostgreSQL database using
 All sensitive or personal configuration details are managed securely through a .env file (excluded from version control).
 The setup uses Docker Compose for container management and runs smoothly on Windows via WSL2 integration.
 
-##  1. Prerequisites
+# ETL Pipeline  
+**Docker + Postgres + WSL2 | Parquet → Postgres ETL Pipeline**
 
-Ensure you have installed:
+This project loads NYC Green Taxi **Parquet** data into a **Postgres** database using Docker containers on **WSL Ubuntu**. The ingestion is handled through a Python script inside a Docker image.
+
+---
+
+## 1. Prerequisites
+
+Make sure you have the following installed:
 
 - **WSL2 (Ubuntu 22.04 / 24.04)**
 - **Docker Desktop**
 - **Git**
-- **Python 3.9+** (optional for local tests)
+- **Python 3.9+** (optional for local testing)
 
-Check Docker inside WSL:
+Verify Docker works inside WSL:
 
 ```bash
 docker --version
 docker ps
+```
+## 2. Clone the Repository
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
