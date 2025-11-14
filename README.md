@@ -4,7 +4,7 @@ It extracts data from parquet file and loads it into a PostgreSQL database using
 All sensitive or personal configuration details are managed securely through a .env file (excluded from version control).
 The setup uses Docker Compose for container management and runs smoothly on Windows via WSL2 integration.
 
-## ✅ 1. Prerequisites
+##  1. Prerequisites
 
 Ensure you have installed:
 
